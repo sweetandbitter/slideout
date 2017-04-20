@@ -1,0 +1,50 @@
+body {
+	height: 100%;
+	margin: 0;
+}
+.container {
+	float: left;
+	width: 40%;
+	margin-top: 50px;
+}
+
+.contact {
+	margin-left: 10%;
+}
+
+.widget {
+	width: 60%;
+	float: right;
+	background-color: lightgray;
+	height: 100vh;
+}
+
+.title {
+	margin-left: 5%;
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.form {
+	margin-left: 5%;
+}
+
+.close {
+	float: right;
+	font-size: 30px;
+	
+}
+
+.block {
+	margin: 20px 0;
+}
+
+.label {
+	margin: 5px 0;
+}
+
+.input {
+	padding: 5px 5px;
+	width: 20%;
+}
