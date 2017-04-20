@@ -1,6 +1,12 @@
-body {
-	height: 100%;
-	margin: 0;
+html { 
+	height:100%; 
+}
+body { 
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0; 
 }
 .container {
 	float: left;
@@ -15,7 +21,26 @@ body {
 .widget {
 	width: 60%;
 	float: right;
-	height: 100vh;
+	height: 100%;
+	min-height: 600px;
+	background-color: lightgrey;
+}
+
+.animationIf.ng-enter,
+.animationIf.ng-leave {
+  -webkit-transition: opacity ease-in-out 1s;
+  -moz-transition: opacity ease-in-out 1s;
+  -ms-transition: opacity ease-in-out 1s;
+  -o-transition: opacity ease-in-out 1s;
+  transition: opacity ease-in-out 1s;
+}
+.animationIf.ng-enter,
+.animationIf.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+.animationIf.ng-leave,
+.animationIf.ng-enter.ng-enter-active {
+  opacity: 1;
 }
 
 .title {
@@ -51,7 +76,8 @@ body {
 
 .textarea {
 	width: 60%;
-	height: 200px;
+	height: auto;
+	box-sizing: border-box;
 }
 
 .submit {
