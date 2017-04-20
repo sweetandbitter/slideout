@@ -15,7 +15,6 @@ body {
 .widget {
 	width: 60%;
 	float: right;
-	background-color: lightgray;
 	height: 100vh;
 }
 
@@ -32,8 +31,9 @@ body {
 
 .close {
 	float: right;
-	font-size: 30px;
-	
+	font-size: 25px;
+	margin-right:10px;
+	cursor: pointer;
 }
 
 .block {
@@ -47,4 +47,17 @@ body {
 .input {
 	padding: 5px 5px;
 	width: 20%;
+}
+
+.textarea {
+	width: 60%;
+	height: 200px;
+}
+
+.submit {
+	width: 26%;
+	height: 30px;
+	position: relative;
+	left: 35%;
+	top: 60px;
 }
