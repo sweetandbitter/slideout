@@ -1,6 +1,6 @@
 This is a sample for reusable slideout component.
 
-1. Please open index.html in localhost.
+1. Please open index.html in localhost or in firefox browser.
 
 2. Click Open Contact Slideout link, it will show a form to input firstname, lastname and message.
 

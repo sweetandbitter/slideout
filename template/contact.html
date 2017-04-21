@@ -1,18 +1,20 @@
-<div class="close" ng-click="closeForm()">&#10006</div>
-<div class="title">Contact</div>
-<form class="form"  ng-submit="submitForm()">
-	<div class="block">
-		<div class="label">First Name</div>
-		<input type="text" placeholder="firstname" class="input" ng-model="form.firstName" required>
-	</div>
-	<div class="block">
-		<div class="label">Last Name</div>
-		<input type="text" placeholder="lastname" class="input" ng-model="form.lastName" required>
-	</div class="block">
-	<div>
-		<div class="label">Message</div>
-		<textarea class="textarea" rows="10" placeholder="Enter text here..." ng-model="form.message"></textarea>
-	</div>
-	<input type="submit" name="" value="send" class="submit">
-</form>
+<div ng-if="show" class="widget  animationIf">
+	<div class="close" ng-click="closeForm()">&#10006</div>
+	<div class="title">Contact</div>
+	<form class="form"  ng-submit="submitForm()">
+		<div class="block">
+			<div class="label">First Name</div>
+			<input type="text" placeholder="firstname" class="input" ng-model="form.firstName" required>
+		</div>
+		<div class="block">
+			<div class="label">Last Name</div>
+			<input type="text" placeholder="lastname" class="input" ng-model="form.lastName" required>
+		</div class="block">
+		<div>
+			<div class="label">Message</div>
+			<textarea class="textarea" rows="10" placeholder="Enter text here..." ng-model="form.message"></textarea>
+		</div>
+		<input type="submit" name="" value="send" class="submit">
+	</form>
 
+</div>
